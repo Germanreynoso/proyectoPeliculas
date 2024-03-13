@@ -1,0 +1,23 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "live-server",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cli": "^1.0.1",
+    "live-server": "^1.2.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "nodemon": "^3.1.0"
+  },
+  "main": "webpack.config.js",
+  "description": ""
+}

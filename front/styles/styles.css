@@ -1,0 +1,167 @@
+/* Reset de estilos */
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212; /* Fondo oscuro */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+    color: #fff; /* Texto blanco */
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-image: url(front/assets/ggg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh; /* Ajustado: Incrementé la altura mínima */
+    display: flex;
+    align-items: center;
+
+}
+
+#titulo {
+    margin-bottom: 20px;
+}
+
+/* Sección "Quien Soy" */
+#favoritas {
+    background-color: #1E1E1E; /* Fondo oscuro */
+    padding: 40px;
+}
+
+/* Tarjetas de tecnologías */
+#card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.cards {
+    background-color: #272727; /* Fondo de tarjeta oscuro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Sección "Actividades Favoritas" */
+#actividades {
+    background-color: #1E1E1E; /* Fondo oscuro */
+    padding: 40px;
+}
+
+#activity-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.barras {
+    width: 48%;
+    margin-bottom: 15px;
+}
+
+.boton {
+    width: 100%;
+    background-color: #4CAF50; /* Color verde para botones */
+    color: #fff; /* Texto blanco */
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.organizadorTarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #1E1E1E; /* Fondo oscuro */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.socials {
+    display: flex;
+}
+
+.social {
+    margin: 0 10px;
+}
+
+.socials .social img {
+    transition: transform 0.3s ease-in-out; /* Transición suave de la transformación */
+}
+
+.socials .social img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al hacer hover */
+}
+
+/* Estilo para las tarjetas de películas dinámicas */
+.cards.movie-card {
+    background-color: #272727; /* Fondo de tarjeta oscuro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.cards.movie-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #fff;
+}
+
+.title2 {
+    color: #fff;
+    text-align: center;
+}
+
+.German {
+    text-align: center;
+}
+
+/* Estilo para alinear los elementos "Historia del cine" y "Web recomendadas" */
+#favoritas ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#favoritas ul li {
+    margin-right: 20px;
+}
+
+#favoritas ul li:last-child {
+    margin-right: 0;
+}
+.cards {
+    transition: transform 0.3s ease-in-out; /* Define la transición para el cambio de transformación (por ejemplo, escala, rotación, etc.) */
+}
+
+.cards:hover {
+    transform: scale(1.05); /* Cambia la escala de la tarjeta al hacer hover */
+}
